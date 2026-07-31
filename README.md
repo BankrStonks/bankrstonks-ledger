@@ -27,20 +27,64 @@ Render `null` as an em dash. Never coerce it to `0`. Every numeric field that de
 on an external read (market data, chain reads, vault reads) is nulled when that read
 fails rather than defaulting to zero.
 
+## Price freshness — last-known-good (schemaVersion 4)
+
+The upstream market source occasionally rate-limits or drops a request. As of
+schemaVersion 4 a failed read no longer wipes a good price to `null`. Instead the
+last successful reading is carried forward and labelled:
+
+```
+priceUsd         number|null   last known good price
+priceAsOf        ISO 8601|null when that price was actually read
+priceStale       boolean       true when priceAsOf is older than freshnessWindowSeconds
+priceAgeSeconds  number|null   age of the reading in seconds (0 = read this snapshot)
+priceSource      string|null   "live" (read this snapshot) | "cache" (carried forward)
+```
+
+Top-level knobs:
+
+```
+freshnessWindowSeconds   900      <= 15 min old counts as fresh (priceStale = false)
+maxCacheAgeSeconds       604800   older than 7 days is discarded -> priceUsd becomes null
+```
+
+Recommended rendering:
+
+- `priceStale === false` → show the price normally
+- `priceStale === true` → show the price with a "as of {priceAsOf}" / greyed treatment
+- `priceUsd === null` → em dash, no number
+
+Tokenized-stock prices carry the same treatment via `stockPriceUsd` /
+`stockPriceAsOf` / `stockPriceStale`, and `trackedStocks[]` entries carry
+`priceAsOf` / `priceStale`. `bnkrsMarket` carries `priceAsOf`, `priceStale`,
+`priceAgeSeconds` and `priceSource`.
+
+`stockPriceSource` is `"onchain"` when read this snapshot, `"onchain-cached"` when
+carried forward from the cache, `"reference"` when it came from the fallback feed.
+
+## dataQuality
+
 Check `dataQuality` before trusting a partially-populated snapshot:
 
 ```
-vaultReadOk             boolean   vaultStats() read succeeded
-bnkrsPriceOk            boolean   $BNKRS price resolved from its pool
-coinsWithMarketData     number    coins with a resolved pool price
-coinsTotal              number
-coinsMissingMarket      string[]  symbols whose price could not be read
-coinsMissingChainData   string[]  symbols whose supply/burn read failed
-stocksPricedOnchain     number    of 8 tokenized stocks
-marketFetchErrors       string[]  empty when all market reads succeeded
+vaultReadOk              boolean   vaultStats() read succeeded
+bnkrsPriceOk             boolean   $BNKRS price resolved (live or cached)
+bnkrsPriceStale          boolean   the $BNKRS price is a carried-forward reading
+coinsWithMarketData      number    coins with any usable price (live or cached)
+coinsWithLiveMarketData  number    coins priced fresh this snapshot
+coinsTotal               number
+coinsMissingMarket       string[]  symbols with no usable price at all
+coinsFromCache           string[]  symbols served from the last-known-good cache
+oldestPriceAgeSeconds    number|null  age of the oldest price in the snapshot
+coinsMissingChainData    string[]  symbols whose supply/burn read failed
+stocksPricedOnchain      number    stocks priced fresh from their pools
+stocksPricedFromCache    number    stocks served from cache
+marketFetchErrors        string[]  empty when all market reads succeeded
 ```
 
-Each `coins[]` entry also carries `dataOk: { market, chain }` for per-coin gating.
+Each `coins[]` entry also carries `dataOk: { market, chain, marketLive }` for
+per-coin gating — `market` means "a usable price exists", `marketLive` means
+"that price was read this snapshot".
 
 ## Update cadence
 
@@ -59,28 +103,30 @@ Top level:
 
 | Field | Type | Description |
 |---|---|---|
-| `schemaVersion` | number | Bumped on any breaking shape change. Currently `3`. |
+| `schemaVersion` | number | Bumped on any breaking shape change. Currently `4`. |
 | `generatedAt` | ISO 8601 string | When this snapshot was produced. |
 | `source` | string | Producing system. |
 | `chain` | string | `robinhood` (Robinhood Chain). |
 | `explorer` | string | Explorer base URL. |
 | `website` | string | bankrstonks.fun |
 | `updateCadence` | string | Human-readable cadence. |
-| `nullPolicy` | string | Machine-readable restatement of the null rule above. |
+| `nullPolicy` | string | Machine-readable restatement of the null + staleness rules. |
+| `freshnessWindowSeconds` | number | Age at which a price is marked stale. |
+| `maxCacheAgeSeconds` | number | Age at which a cached price is discarded to `null`. |
 | `dataQuality` | object | Per-snapshot read health. See above. |
 | `summary` | object | Headline stats. |
 | `control` | object | `{ paused, pausedAt }` — global keeper pause switch. |
 | `config` | object | Hold days, keeper cadence, max slippage, fee splits. |
 | `contracts` | object | Every address: treasury, keeper, burn address, $BNKRS, pool id, staking vault, stock tokens. |
 | `vault` | object | Staking vault address + on-chain totals, read live from `vaultStats()`. |
-| `bnkrsMarket` | object\|null | $BNKRS market data from its WETH pool. `null` if the price could not be read. |
+| `bnkrsMarket` | object\|null | $BNKRS market data from its WETH pool. `null` if never resolved. |
 | `coins` | array | One entry per registered coin (9 total, incl. $BNKRS). |
 | `reserveLots` | array | Open and closed 30-day stock reserve lots. |
 | `burns` | array | Burn events. |
 | `poolInflows` | array | $BNKRS bought for the staking pool. |
 | `vaultFunding` | array | `fundRewards` pushes from treasury into the vault. |
 | `alerts` | array | Open keeper alerts. Empty = healthy. |
-| `trackedStocks` | array | Live tokenized-stock prices from their on-chain pools. |
+| `trackedStocks` | array | Tokenized-stock prices with `priceAsOf` / `priceStale`. |
 | `actionLog` | array | Keeper action log, newest first. |
 | `apyTrailing30dPct` | number\|null | `null` until real distributions exist. |
 | `branding` | object | `{ logoUrl, bannerUrl }`. |
@@ -128,6 +174,9 @@ lastFundTxHash            string|null
 dist30d                   number    trailing-30d vault funding
 ```
 
+Vault values are **never** cached or carried forward — they are read fresh from the
+contract every snapshot, and null out if the read fails. Chain is authoritative.
+
 ### `coins[]`
 
 ```
@@ -138,9 +187,15 @@ tokenAddress          string        coin contract on Robinhood Chain
 pairedStock           string        e.g. "NVDA" ("WETH" for BNKRS)
 stockTokenAddress     string|null
 stockPriceUsd         number|null
+stockPriceAsOf        ISO 8601|null
+stockPriceStale       boolean
 stockChange24Pct      number|null
-stockPriceSource      string|null   "onchain" | "reference"
-priceUsd              number|null   null when the pool price could not be read
+stockPriceSource      string|null   "onchain" | "onchain-cached" | "reference"
+priceUsd              number|null   last known good pool price
+priceAsOf             ISO 8601|null when that price was read
+priceStale            boolean       older than freshnessWindowSeconds
+priceAgeSeconds       number|null
+priceSource           string|null   "live" | "cache"
 change24Pct           number|null
 mcapUsd               number|null
 liquidityUsd          number|null
@@ -154,7 +209,7 @@ reserveUsd            number|null
 totalFeeUsd           number
 lotCount              number
 createdAt             ISO 8601 string
-dataOk                object        { market: boolean, chain: boolean }
+dataOk                object        { market, chain, marketLive }
 ```
 
 ### `actionLog[]`
@@ -182,7 +237,8 @@ fee totals.
 
 Empty until per-coin fees clear the $1 dust threshold and the keeper opens the
 first lot. Each lot carries the coin, stock, amount, USD cost basis, live value,
-unrealized P&L, open date, maturity date, status, and buy/sell/burn tx hashes.
+unrealized P&L, open date, maturity date, status, buy/sell/burn tx hashes, plus
+`stockPriceAsOf` / `stockPriceStale` for the price used to value it.
 
 ## Empty state
 
@@ -200,8 +256,15 @@ const ledger = await res.json();
 
 const fmt = v => (v === null || v === undefined ? '—' : v);
 
+function renderPrice(c) {
+  if (c.priceUsd === null) return '—';
+  return c.priceStale
+    ? `${c.priceUsd} (as of ${c.priceAsOf})`
+    : `${c.priceUsd}`;
+}
+
 console.log(fmt(ledger.vault.totalStaked));
-console.log(ledger.coins.filter(c => !c.isBnkrs).map(c => [c.symbol, fmt(c.priceUsd)]));
+console.log(ledger.coins.map(c => [c.symbol, renderPrice(c)]));
 console.log(ledger.dataQuality);
 ```
 
