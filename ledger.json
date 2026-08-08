@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-08-07T06:00:00.000Z",
+  "generatedAt": "2026-08-08T06:15:42.066Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -47,8 +47,8 @@
     "totalCoinsBurntUnits": 0,
     "openLots": 0,
     "dueForBurnLots": 0,
-    "reservePricing": "on-chain stock pools",
-    "updatedAt": "2026-08-07T06:00:00.000Z"
+    "reservePricing": "reference feed",
+    "updatedAt": "2026-08-08T06:15:42.066Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
