@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-08-09T06:15:47.069Z",
+  "generatedAt": "2026-08-10T06:15:35.317Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -29,8 +29,8 @@
     "coinsFromCache": [],
     "oldestPriceAgeSeconds": null,
     "coinsMissingChainData": [],
-    "stocksPricedOnchain": 7,
-    "stocksPricedFromCache": 1,
+    "stocksPricedOnchain": 0,
+    "stocksPricedFromCache": 7,
     "marketFetchErrors": []
   },
   "summary": {
@@ -47,8 +47,8 @@
     "totalCoinsBurntUnits": 0,
     "openLots": 0,
     "dueForBurnLots": 0,
-    "reservePricing": "on-chain stock pools",
-    "updatedAt": "2026-08-09T06:15:47.069Z"
+    "reservePricing": "reference feed",
+    "updatedAt": "2026-08-10T06:15:35.317Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
@@ -138,9 +138,9 @@
       "stockTokenAddress": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
       "stockPriceUsd": 224.65,
       "stockPriceAsOf": "2026-08-09T06:15:47.069Z",
-      "stockPriceStale": false,
+      "stockPriceStale": true,
       "stockChange24Pct": 0.52,
-      "stockPriceSource": "onchain",
+      "stockPriceSource": "onchain-cached",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -174,9 +174,9 @@
       "stockTokenAddress": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
       "stockPriceUsd": 331.64,
       "stockPriceAsOf": "2026-08-09T06:15:47.069Z",
-      "stockPriceStale": false,
+      "stockPriceStale": true,
       "stockChange24Pct": 0.82,
-      "stockPriceSource": "onchain",
+      "stockPriceSource": "onchain-cached",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -210,9 +210,9 @@
       "stockTokenAddress": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
       "stockPriceUsd": 312.67,
       "stockPriceAsOf": "2026-08-09T06:15:47.069Z",
-      "stockPriceStale": false,
+      "stockPriceStale": true,
       "stockChange24Pct": -0.21,
-      "stockPriceSource": "onchain",
+      "stockPriceSource": "onchain-cached",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -246,9 +246,9 @@
       "stockTokenAddress": "0xe93237C50D904957Cf27E7B1133b510C669c2e74",
       "stockPriceUsd": 500.077,
       "stockPriceAsOf": "2026-08-09T06:15:47.069Z",
-      "stockPriceStale": false,
+      "stockPriceStale": true,
       "stockChange24Pct": -0.06,
-      "stockPriceSource": "onchain",
+      "stockPriceSource": "onchain-cached",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -280,11 +280,11 @@
       "tokenAddress": "0xeaa910B30CE8F1F0b27E7ECdcA7f688c19cB7BA3",
       "pairedStock": "AMZN",
       "stockTokenAddress": "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
-      "stockPriceUsd": 275.62,
-      "stockPriceAsOf": "2026-08-03T06:15:30.974Z",
-      "stockPriceStale": true,
-      "stockChange24Pct": 1.57,
-      "stockPriceSource": "onchain-cached",
+      "stockPriceUsd": 274.48,
+      "stockPriceAsOf": "2026-08-10T06:15:35.317Z",
+      "stockPriceStale": false,
+      "stockChange24Pct": null,
+      "stockPriceSource": "reference",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -318,9 +318,9 @@
       "stockTokenAddress": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
       "stockPriceUsd": 596.92,
       "stockPriceAsOf": "2026-08-09T06:15:47.069Z",
-      "stockPriceStale": false,
+      "stockPriceStale": true,
       "stockChange24Pct": 0.92,
-      "stockPriceSource": "onchain",
+      "stockPriceSource": "onchain-cached",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -354,9 +354,9 @@
       "stockTokenAddress": "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
       "stockPriceUsd": 356.53,
       "stockPriceAsOf": "2026-08-09T06:15:47.069Z",
-      "stockPriceStale": false,
+      "stockPriceStale": true,
       "stockChange24Pct": 0.32,
-      "stockPriceSource": "onchain",
+      "stockPriceSource": "onchain-cached",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -390,9 +390,9 @@
       "stockTokenAddress": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
       "stockPriceUsd": 775.99,
       "stockPriceAsOf": "2026-08-09T06:15:47.069Z",
-      "stockPriceStale": false,
+      "stockPriceStale": true,
       "stockChange24Pct": 0.28,
-      "stockPriceSource": "onchain",
+      "stockPriceSource": "onchain-cached",
       "priceUsd": null,
       "priceAsOf": null,
       "priceStale": false,
@@ -427,61 +427,83 @@
     {
       "symbol": "NVDA",
       "priceUsd": 224.65,
-      "source": "onchain",
+      "source": "onchain-cached",
       "priceAsOf": "2026-08-09T06:15:47.069Z",
-      "priceStale": false
+      "priceStale": true
     },
     {
       "symbol": "TSLA",
       "priceUsd": 331.64,
-      "source": "onchain",
+      "source": "onchain-cached",
       "priceAsOf": "2026-08-09T06:15:47.069Z",
-      "priceStale": false
+      "priceStale": true
     },
     {
       "symbol": "AAPL",
       "priceUsd": 312.67,
-      "source": "onchain",
+      "source": "onchain-cached",
       "priceAsOf": "2026-08-09T06:15:47.069Z",
-      "priceStale": false
+      "priceStale": true
     },
     {
       "symbol": "MSFT",
       "priceUsd": 500.077,
-      "source": "onchain",
+      "source": "onchain-cached",
       "priceAsOf": "2026-08-09T06:15:47.069Z",
-      "priceStale": false
+      "priceStale": true
     },
     {
       "symbol": "AMZN",
-      "priceUsd": 275.62,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-03T06:15:30.974Z",
-      "priceStale": true
+      "priceUsd": 274.48,
+      "source": "reference",
+      "priceAsOf": "2026-08-10T06:15:35.317Z",
+      "priceStale": false
     },
     {
       "symbol": "META",
       "priceUsd": 596.92,
-      "source": "onchain",
+      "source": "onchain-cached",
       "priceAsOf": "2026-08-09T06:15:47.069Z",
-      "priceStale": false
+      "priceStale": true
     },
     {
       "symbol": "GOOGL",
       "priceUsd": 356.53,
-      "source": "onchain",
+      "source": "onchain-cached",
       "priceAsOf": "2026-08-09T06:15:47.069Z",
-      "priceStale": false
+      "priceStale": true
     },
     {
       "symbol": "SPY",
       "priceUsd": 775.99,
-      "source": "onchain",
+      "source": "onchain-cached",
       "priceAsOf": "2026-08-09T06:15:47.069Z",
-      "priceStale": false
+      "priceStale": true
     }
   ],
   "actionLog": [
+    {
+      "ts": "2026-08-10T06:15:19.165Z",
+      "timestamp": "2026-08-10T06:15:19.165Z",
+      "action": "KEEPER_HEARTBEAT",
+      "coinSymbol": null,
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "runId=run_2026-08-10 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
+      "txHash": null,
+      "explorerUrl": null
+    },
+    {
+      "ts": "2026-08-10T06:00:30.853Z",
+      "timestamp": "2026-08-10T06:00:30.853Z",
+      "action": "KEEPER_HEARTBEAT",
+      "coinSymbol": null,
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "runId=run_2026-08-10 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
+      "txHash": null,
+      "explorerUrl": null
+    },
     {
       "ts": "2026-08-09T06:15:27.474Z",
       "timestamp": "2026-08-09T06:15:27.474Z",
@@ -802,7 +824,6 @@
       "explorerUrl": null
     },
     {
-      "symbol": "bAMZN",
       "ts": "2026-07-31T13:38:57.853Z",
       "timestamp": "2026-07-31T13:38:57.853Z",
       "action": "COIN_REGISTERED",
@@ -814,7 +835,6 @@
       "explorerUrl": null
     },
     {
-      "symbol": "bMSFT",
       "ts": "2026-07-31T13:38:52.082Z",
       "timestamp": "2026-07-31T13:38:52.082Z",
       "action": "COIN_REGISTERED",
@@ -826,7 +846,6 @@
       "explorerUrl": null
     },
     {
-      "symbol": "bAAPL",
       "ts": "2026-07-31T13:38:48.415Z",
       "timestamp": "2026-07-31T13:38:48.415Z",
       "action": "COIN_REGISTERED",
@@ -838,7 +857,6 @@
       "explorerUrl": null
     },
     {
-      "symbol": "bTSLA",
       "ts": "2026-07-31T13:38:42.975Z",
       "timestamp": "2026-07-31T13:38:42.975Z",
       "action": "COIN_REGISTERED",
@@ -850,7 +868,6 @@
       "explorerUrl": null
     },
     {
-      "symbol": "bNVDA",
       "ts": "2026-07-31T13:38:00.606Z",
       "timestamp": "2026-07-31T13:38:00.606Z",
       "action": "COIN_REGISTERED",
@@ -862,7 +879,6 @@
       "explorerUrl": null
     },
     {
-      "symbol": "BNKRS",
       "ts": "2026-07-31T13:37:56.507Z",
       "timestamp": "2026-07-31T13:37:56.507Z",
       "action": "COIN_REGISTERED",
