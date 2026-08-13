@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-08-11T06:15:43.582Z",
+  "generatedAt": "2026-08-13T06:15:46.396Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -48,7 +48,7 @@
     "openLots": 0,
     "dueForBurnLots": 0,
     "reservePricing": "reference feed",
-    "updatedAt": "2026-08-11T06:15:43.582Z"
+    "updatedAt": "2026-08-13T06:15:46.396Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
@@ -890,12 +890,26 @@
       "explorerUrl": null
     },
     {
-      "symbol": "bNVDA",
-      "action": "COIN_REGISTERED"
+      "ts": "2026-07-31T13:38:00.606Z",
+      "timestamp": "2026-07-31T13:38:00.606Z",
+      "action": "COIN_REGISTERED",
+      "coinSymbol": "bNVDA",
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "bNVDA paired to NVDA (0xb4E50b1A63fFBE10354d04dfFE4083D70149aBa3)",
+      "txHash": null,
+      "explorerUrl": null
     },
     {
-      "symbol": "BNKRS",
-      "action": "COIN_REGISTERED"
+      "ts": "2026-07-31T13:37:56.507Z",
+      "timestamp": "2026-07-31T13:37:56.507Z",
+      "action": "COIN_REGISTERED",
+      "coinSymbol": "BNKRS",
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "BNKRS paired to WETH (0x1504ED99c6369f8715449a3BcD2Dc5d5e37f6bA3)",
+      "txHash": null,
+      "explorerUrl": null
     }
   ],
   "apyTrailing30dPct": null,
