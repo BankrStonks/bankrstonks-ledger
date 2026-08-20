@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-08-19T06:15:49.666Z",
+  "generatedAt": "2026-08-20T06:15:41.813Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -11,15 +11,25 @@
   "dataQuality": {
     "vaultReadOk": true,
     "bnkrsPriceOk": true,
-    "bnkrsPriceStale": false,
+    "bnkrsPriceStale": true,
     "coinsWithMarketData": 9,
-    "coinsWithLiveMarketData": 9,
+    "coinsWithLiveMarketData": 0,
     "coinsTotal": 9,
     "coinsMissingMarket": [],
-    "coinsFromCache": [],
-    "oldestPriceAgeSeconds": 0,
+    "coinsFromCache": [
+      "BNKRS",
+      "bNVDA",
+      "bTSLA",
+      "bAAPL",
+      "bMSFT",
+      "bAMZN",
+      "bMETA",
+      "bGOOGL",
+      "bSPY"
+    ],
+    "oldestPriceAgeSeconds": 86392,
     "coinsMissingChainData": [],
-    "stocksPricedOnchain": 7,
+    "stocksPricedOnchain": 8,
     "stocksPricedFromCache": 0,
     "marketFetchErrors": []
   },
@@ -38,7 +48,7 @@
     "openLots": 0,
     "dueForBurnLots": 0,
     "reservePricing": "on-chain stock pools",
-    "updatedAt": "2026-08-19T06:15:49.666Z"
+    "updatedAt": "2026-08-20T06:15:41.813Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
@@ -89,9 +99,9 @@
     "change24Pct": null,
     "source": "onchain-pool",
     "priceAsOf": "2026-08-19T06:15:49.666Z",
-    "priceStale": false,
-    "priceAgeSeconds": 0,
-    "priceSource": "live"
+    "priceStale": true,
+    "priceAgeSeconds": 86392,
+    "priceSource": "cache"
   },
   "coins": [
     {
@@ -108,9 +118,9 @@
       "stockPriceSource": null,
       "priceUsd": 1.03e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10300,
       "liquidityUsd": 8755.89,
@@ -127,7 +137,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -137,16 +147,16 @@
       "tokenAddress": "0xb4E50b1A63fFBE10354d04dfFE4083D70149aBa3",
       "pairedStock": "NVDA",
       "stockTokenAddress": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
-      "stockPriceUsd": 219.74,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 219.36,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": null,
-      "stockPriceSource": "reference",
+      "stockChange24Pct": 0.2,
+      "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10280,
       "liquidityUsd": 8737.74,
@@ -163,7 +173,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -173,16 +183,16 @@
       "tokenAddress": "0x6B081b7BA3784dE1cA72C2e8638F554FeD55Bba3",
       "pairedStock": "TSLA",
       "stockTokenAddress": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
-      "stockPriceUsd": 335.91,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 350.83,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": -0.2,
+      "stockChange24Pct": 4.44,
       "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10280,
       "liquidityUsd": 8737.74,
@@ -199,7 +209,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -209,16 +219,16 @@
       "tokenAddress": "0x4589fB12a648f1177Cd6B25C500566469fa1cBa3",
       "pairedStock": "AAPL",
       "stockTokenAddress": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
-      "stockPriceUsd": 310.97,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 317.1,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": 1.66,
+      "stockChange24Pct": 1.97,
       "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10278,
       "liquidityUsd": 8736.58,
@@ -235,7 +245,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -245,16 +255,16 @@
       "tokenAddress": "0x2F22145F30381E0bd8e7a9d8e8b16fa08f67dba3",
       "pairedStock": "MSFT",
       "stockTokenAddress": "0xe93237C50D904957Cf27E7B1133b510C669c2e74",
-      "stockPriceUsd": 482.36,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 485.33,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": 0.44,
+      "stockChange24Pct": 0.61,
       "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10280,
       "liquidityUsd": 8737.72,
@@ -271,7 +281,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -281,16 +291,16 @@
       "tokenAddress": "0xeaa910B30CE8F1F0b27E7ECdcA7f688c19cB7BA3",
       "pairedStock": "AMZN",
       "stockTokenAddress": "0x12f190a9F9d7D37a250758b26824B97CE941bF54",
-      "stockPriceUsd": 264.75,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 270.079,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": 1.14,
+      "stockChange24Pct": 2.01,
       "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10278,
       "liquidityUsd": 8736.58,
@@ -307,7 +317,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -317,16 +327,16 @@
       "tokenAddress": "0x9f3307D5b51BEA86d18D2E305eb1b86D65E88Ba3",
       "pairedStock": "META",
       "stockTokenAddress": "0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35",
-      "stockPriceUsd": 555.25,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 557.4,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": -2.65,
+      "stockChange24Pct": 0.39,
       "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10278,
       "liquidityUsd": 8736.58,
@@ -343,7 +353,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -353,16 +363,16 @@
       "tokenAddress": "0x3F102B56E8D57F84e0c5b2ca4Ca2E1499FAd4bA3",
       "pairedStock": "GOOGL",
       "stockTokenAddress": "0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3",
-      "stockPriceUsd": 344.067,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 345.52,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": 0.34,
+      "stockChange24Pct": 0.42,
       "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10278,
       "liquidityUsd": 8736.12,
@@ -379,7 +389,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     },
     {
@@ -389,16 +399,16 @@
       "tokenAddress": "0x9a34B2915E1F9fd3E7995b7Fbb705b31a89EdbA3",
       "pairedStock": "SPY",
       "stockTokenAddress": "0x117cc2133c37B721F49dE2A7a74833232B3B4C0C",
-      "stockPriceUsd": 766.6,
-      "stockPriceAsOf": "2026-08-19T06:15:49.666Z",
+      "stockPriceUsd": 771.21,
+      "stockPriceAsOf": "2026-08-20T06:15:41.813Z",
       "stockPriceStale": false,
-      "stockChange24Pct": -0.56,
+      "stockChange24Pct": 0.59,
       "stockPriceSource": "onchain",
       "priceUsd": 1.027e-7,
       "priceAsOf": "2026-08-19T06:15:49.666Z",
-      "priceStale": false,
-      "priceAgeSeconds": 0,
-      "priceSource": "live",
+      "priceStale": true,
+      "priceAgeSeconds": 86392,
+      "priceSource": "cache",
       "change24Pct": null,
       "mcapUsd": 10278,
       "liquidityUsd": 8736.12,
@@ -415,7 +425,7 @@
       "dataOk": {
         "market": true,
         "chain": true,
-        "marketLive": true
+        "marketLive": false
       }
     }
   ],
@@ -427,62 +437,84 @@
   "trackedStocks": [
     {
       "symbol": "NVDA",
-      "priceUsd": 219.74,
-      "source": "reference",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceUsd": 219.36,
+      "source": "onchain",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     },
     {
       "symbol": "TSLA",
-      "priceUsd": 335.91,
+      "priceUsd": 350.83,
       "source": "onchain",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     },
     {
       "symbol": "AAPL",
-      "priceUsd": 310.97,
+      "priceUsd": 317.1,
       "source": "onchain",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     },
     {
       "symbol": "MSFT",
-      "priceUsd": 482.36,
+      "priceUsd": 485.33,
       "source": "onchain",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     },
     {
       "symbol": "AMZN",
-      "priceUsd": 264.75,
+      "priceUsd": 270.079,
       "source": "onchain",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     },
     {
       "symbol": "META",
-      "priceUsd": 555.25,
+      "priceUsd": 557.4,
       "source": "onchain",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     },
     {
       "symbol": "GOOGL",
-      "priceUsd": 344.067,
+      "priceUsd": 345.52,
       "source": "onchain",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     },
     {
       "symbol": "SPY",
-      "priceUsd": 766.6,
+      "priceUsd": 771.21,
       "source": "onchain",
-      "priceAsOf": "2026-08-19T06:15:49.666Z",
+      "priceAsOf": "2026-08-20T06:15:41.813Z",
       "priceStale": false
     }
   ],
   "actionLog": [
+    {
+      "ts": "2026-08-20T06:15:22.566Z",
+      "timestamp": "2026-08-20T06:15:22.566Z",
+      "action": "KEEPER_HEARTBEAT",
+      "coinSymbol": null,
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "runId=run_2026-08-20 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
+      "txHash": null,
+      "explorerUrl": null
+    },
+    {
+      "ts": "2026-08-20T06:00:22.893Z",
+      "timestamp": "2026-08-20T06:00:22.893Z",
+      "action": "KEEPER_HEARTBEAT",
+      "coinSymbol": null,
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "runId=run_2026-08-20 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
+      "txHash": null,
+      "explorerUrl": null
+    },
     {
       "ts": "2026-08-19T06:15:22.317Z",
       "timestamp": "2026-08-19T06:15:22.317Z",
