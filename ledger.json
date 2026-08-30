@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-08-29T06:15:35.176Z",
+  "generatedAt": "2026-08-30T06:15:36.491Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -28,7 +28,7 @@
     "coinsFromCache": [
       "BNKRS"
     ],
-    "oldestPriceAgeSeconds": 431969,
+    "oldestPriceAgeSeconds": 518370,
     "coinsMissingChainData": [],
     "stocksPricedOnchain": 0,
     "stocksPricedFromCache": 8,
@@ -49,7 +49,7 @@
     "openLots": 0,
     "dueForBurnLots": 0,
     "reservePricing": "reference feed",
-    "updatedAt": "2026-08-29T06:15:35.176Z"
+    "updatedAt": "2026-08-30T06:15:36.491Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
@@ -101,7 +101,7 @@
     "source": "onchain-pool",
     "priceAsOf": "2026-08-24T06:16:06.062Z",
     "priceStale": true,
-    "priceAgeSeconds": 431969,
+    "priceAgeSeconds": 518370,
     "priceSource": "cache"
   },
   "coins": [
@@ -120,7 +120,7 @@
       "priceUsd": 1.036134681e-7,
       "priceAsOf": "2026-08-24T06:16:06.062Z",
       "priceStale": true,
-      "priceAgeSeconds": 431969,
+      "priceAgeSeconds": 518370,
       "priceSource": "cache",
       "change24Pct": 0,
       "mcapUsd": 10361.34681,
@@ -503,6 +503,28 @@
     }
   ],
   "actionLog": [
+    {
+      "ts": "2026-08-30T06:15:14.526Z",
+      "timestamp": "2026-08-30T06:15:14.526Z",
+      "action": "KEEPER_HEARTBEAT",
+      "coinSymbol": null,
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "runId=run_2026-08-30 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1",
+      "txHash": null,
+      "explorerUrl": null
+    },
+    {
+      "ts": "2026-08-30T06:00:11.218Z",
+      "timestamp": "2026-08-30T06:00:11.218Z",
+      "action": "KEEPER_HEARTBEAT",
+      "coinSymbol": null,
+      "amountUsd": null,
+      "coinUnits": null,
+      "details": "runId=run_2026-08-30 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1",
+      "txHash": null,
+      "explorerUrl": null
+    },
     {
       "ts": "2026-08-29T06:15:16.021Z",
       "timestamp": "2026-08-29T06:15:16.021Z",
