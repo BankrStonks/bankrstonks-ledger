@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-08-30T06:15:36.491Z",
+  "generatedAt": "2026-08-31T06:15:38.164Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -15,20 +15,9 @@
     "coinsWithMarketData": 1,
     "coinsWithLiveMarketData": 0,
     "coinsTotal": 9,
-    "coinsMissingMarket": [
-      "bNVDA",
-      "bTSLA",
-      "bAAPL",
-      "bMSFT",
-      "bAMZN",
-      "bMETA",
-      "bGOOGL",
-      "bSPY"
-    ],
-    "coinsFromCache": [
-      "BNKRS"
-    ],
-    "oldestPriceAgeSeconds": 518370,
+    "coinsMissingMarket": ["bNVDA", "bTSLA", "bAAPL", "bMSFT", "bAMZN", "bMETA", "bGOOGL", "bSPY"],
+    "coinsFromCache": ["BNKRS"],
+    "oldestPriceAgeSeconds": 604772,
     "coinsMissingChainData": [],
     "stocksPricedOnchain": 0,
     "stocksPricedFromCache": 8,
@@ -49,7 +38,7 @@
     "openLots": 0,
     "dueForBurnLots": 0,
     "reservePricing": "reference feed",
-    "updatedAt": "2026-08-30T06:15:36.491Z"
+    "updatedAt": "2026-08-31T06:15:38.164Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
@@ -101,7 +90,7 @@
     "source": "onchain-pool",
     "priceAsOf": "2026-08-24T06:16:06.062Z",
     "priceStale": true,
-    "priceAgeSeconds": 518370,
+    "priceAgeSeconds": 604772,
     "priceSource": "cache"
   },
   "coins": [
@@ -120,7 +109,7 @@
       "priceUsd": 1.036134681e-7,
       "priceAsOf": "2026-08-24T06:16:06.062Z",
       "priceStale": true,
-      "priceAgeSeconds": 518370,
+      "priceAgeSeconds": 604772,
       "priceSource": "cache",
       "change24Pct": 0,
       "mcapUsd": 10361.34681,
@@ -135,11 +124,7 @@
       "totalFeeUsd": 0.8,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:37:56.461Z",
-      "dataOk": {
-        "market": true,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": true, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bNVDA",
@@ -171,11 +156,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:38:00.559Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bTSLA",
@@ -207,11 +188,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:38:42.914Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bAAPL",
@@ -243,11 +220,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:38:48.366Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bMSFT",
@@ -279,11 +252,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:38:52.033Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bAMZN",
@@ -315,11 +284,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:38:57.805Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bMETA",
@@ -351,11 +316,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:39:02.250Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bGOOGL",
@@ -387,11 +348,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:39:06.174Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bSPY",
@@ -423,11 +380,7 @@
       "totalFeeUsd": 0,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:39:10.195Z",
-      "dataOk": {
-        "market": false,
-        "chain": true,
-        "marketLive": false
-      }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     }
   ],
   "reserveLots": [],
@@ -445,909 +398,103 @@
     }
   ],
   "trackedStocks": [
-    {
-      "symbol": "NVDA",
-      "priceUsd": 210.61,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    },
-    {
-      "symbol": "TSLA",
-      "priceUsd": 351.0091,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    },
-    {
-      "symbol": "AAPL",
-      "priceUsd": 309.84,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    },
-    {
-      "symbol": "MSFT",
-      "priceUsd": 507.77,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    },
-    {
-      "symbol": "AMZN",
-      "priceUsd": 274.4,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    },
-    {
-      "symbol": "META",
-      "priceUsd": 586.36,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    },
-    {
-      "symbol": "GOOGL",
-      "priceUsd": 363.052,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    },
-    {
-      "symbol": "SPY",
-      "priceUsd": 765.4,
-      "source": "onchain-cached",
-      "priceAsOf": "2026-08-25T06:15:44.855Z",
-      "priceStale": true
-    }
+    { "symbol": "NVDA", "priceUsd": 210.61, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true },
+    { "symbol": "TSLA", "priceUsd": 351.0091, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true },
+    { "symbol": "AAPL", "priceUsd": 309.84, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true },
+    { "symbol": "MSFT", "priceUsd": 507.77, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true },
+    { "symbol": "AMZN", "priceUsd": 274.4, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true },
+    { "symbol": "META", "priceUsd": 586.36, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true },
+    { "symbol": "GOOGL", "priceUsd": 363.052, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true },
+    { "symbol": "SPY", "priceUsd": 765.4, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true }
   ],
   "actionLog": [
-    {
-      "ts": "2026-08-30T06:15:14.526Z",
-      "timestamp": "2026-08-30T06:15:14.526Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-30 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-30T06:00:11.218Z",
-      "timestamp": "2026-08-30T06:00:11.218Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-30 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-29T06:15:16.021Z",
-      "timestamp": "2026-08-29T06:15:16.021Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-29 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-28T06:15:09.903Z",
-      "timestamp": "2026-08-28T06:15:09.903Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-28 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-28T06:00:11.577Z",
-      "timestamp": "2026-08-28T06:00:11.577Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-28 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-27T06:15:14.604Z",
-      "timestamp": "2026-08-27T06:15:14.604Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-27 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-27T06:00:11.852Z",
-      "timestamp": "2026-08-27T06:00:11.852Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-27 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-26T06:15:16.349Z",
-      "timestamp": "2026-08-26T06:15:16.349Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-26 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-26T06:00:42.313Z",
-      "timestamp": "2026-08-26T06:00:42.313Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-26 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-25T06:15:23.627Z",
-      "timestamp": "2026-08-25T06:15:23.627Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-25 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-25T06:00:38.553Z",
-      "timestamp": "2026-08-25T06:00:38.553Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-25 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-24T06:15:21.793Z",
-      "timestamp": "2026-08-24T06:15:21.793Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-24 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-24T06:00:34.680Z",
-      "timestamp": "2026-08-24T06:00:34.680Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-24 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-23T06:15:22.565Z",
-      "timestamp": "2026-08-23T06:15:22.565Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-23 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-23T06:00:29.872Z",
-      "timestamp": "2026-08-23T06:00:29.872Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-23 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-22T06:15:21.077Z",
-      "timestamp": "2026-08-22T06:15:21.077Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-22 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-22T06:00:27.361Z",
-      "timestamp": "2026-08-22T06:00:27.361Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-22 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-21T06:15:23.128Z",
-      "timestamp": "2026-08-21T06:15:23.128Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-21 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-21T06:00:24.450Z",
-      "timestamp": "2026-08-21T06:00:24.450Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-21 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-20T06:15:22.566Z",
-      "timestamp": "2026-08-20T06:15:22.566Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-20 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-20T06:00:22.893Z",
-      "timestamp": "2026-08-20T06:00:22.893Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-20 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-19T06:15:22.317Z",
-      "timestamp": "2026-08-19T06:15:22.317Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-19 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-19T06:00:19.471Z",
-      "timestamp": "2026-08-19T06:00:19.471Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-19 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-18T06:15:23.439Z",
-      "timestamp": "2026-08-18T06:15:23.439Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-18 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-18T06:00:16.785Z",
-      "timestamp": "2026-08-18T06:00:16.785Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-18 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-17T06:15:34.874Z",
-      "timestamp": "2026-08-17T06:15:34.874Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-17 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-17T06:00:17.656Z",
-      "timestamp": "2026-08-17T06:00:17.656Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-17 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-16T06:15:28.006Z",
-      "timestamp": "2026-08-16T06:15:28.006Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-16 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-16T06:00:16.628Z",
-      "timestamp": "2026-08-16T06:00:16.628Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-16 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-15T06:15:27.854Z",
-      "timestamp": "2026-08-15T06:15:27.854Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-15 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-15T06:00:15.179Z",
-      "timestamp": "2026-08-15T06:00:15.179Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-15 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-14T06:15:22.490Z",
-      "timestamp": "2026-08-14T06:15:22.490Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-14 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-13T06:15:26.242Z",
-      "timestamp": "2026-08-13T06:15:26.242Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-13 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-13T06:00:40.090Z",
-      "timestamp": "2026-08-13T06:00:40.090Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-13 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-12T06:15:30.339Z",
-      "timestamp": "2026-08-12T06:15:30.339Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-12 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-12T06:00:35.012Z",
-      "timestamp": "2026-08-12T06:00:35.012Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-12 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-11T06:15:23.413Z",
-      "timestamp": "2026-08-11T06:15:23.413Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-11 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-11T06:00:32.136Z",
-      "timestamp": "2026-08-11T06:00:32.136Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-11 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-10T06:15:19.165Z",
-      "timestamp": "2026-08-10T06:15:19.165Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-10 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-10T06:00:30.853Z",
-      "timestamp": "2026-08-10T06:00:30.853Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-10 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-09T06:15:27.474Z",
-      "timestamp": "2026-08-09T06:15:27.474Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-09 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-09T06:00:28.179Z",
-      "timestamp": "2026-08-09T06:00:28.179Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-09 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-08T06:15:23.641Z",
-      "timestamp": "2026-08-08T06:15:23.641Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-08 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-08T06:00:25.320Z",
-      "timestamp": "2026-08-08T06:00:25.320Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-08 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-07T06:15:19.448Z",
-      "timestamp": "2026-08-07T06:15:19.448Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-07 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-07T06:00:20.520Z",
-      "timestamp": "2026-08-07T06:00:20.520Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-07 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-06T06:15:24.950Z",
-      "timestamp": "2026-08-06T06:15:24.950Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-06 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-06T06:00:20.256Z",
-      "timestamp": "2026-08-06T06:00:20.256Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-06 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-05T06:15:21.366Z",
-      "timestamp": "2026-08-05T06:15:21.366Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-05 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-05T06:00:20.714Z",
-      "timestamp": "2026-08-05T06:00:20.714Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-05 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-04T06:15:18.508Z",
-      "timestamp": "2026-08-04T06:15:18.508Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-04 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-04T06:00:14.617Z",
-      "timestamp": "2026-08-04T06:00:14.617Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-04 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-03T06:15:17.589Z",
-      "timestamp": "2026-08-03T06:15:17.589Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-03 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-03T06:00:13.538Z",
-      "timestamp": "2026-08-03T06:00:13.538Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-03 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-02T06:15:21.265Z",
-      "timestamp": "2026-08-02T06:15:21.265Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-02 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-02T06:00:17.415Z",
-      "timestamp": "2026-08-02T06:00:17.415Z",
-      "action": "FEE_SPLIT",
-      "coinSymbol": "BNKRS",
-      "amountUsd": 0.8,
-      "coinUnits": null,
-      "details": "split 0/80/20 — pool (buys $BNKRS) +$0.64, owner +$0.16",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-02T06:00:17.415Z",
-      "timestamp": "2026-08-02T06:00:17.415Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-02 handled=1 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-08-01T06:16:14.786Z",
-      "timestamp": "2026-08-01T06:16:14.786Z",
-      "action": "FEE_CLAIM",
-      "coinSymbol": "BNKRS",
-      "amountUsd": 0.8,
-      "coinUnits": null,
-      "details": "claimed $0.80 creator fees for BNKRS - booked and queued for the split",
-      "txHash": "0x610831b133e7a90bb7110fa258afe60be9652837764c7b1d8e2b023cbdc01ce3",
-      "explorerUrl": "https://robinhoodchain.blockscout.com/tx/0x610831b133e7a90bb7110fa258afe60be9652837764c7b1d8e2b023cbdc01ce3"
-    },
-    {
-      "ts": "2026-08-01T06:15:16.259Z",
-      "timestamp": "2026-08-01T06:15:16.259Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-08-01 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T17:35:20.266Z",
-      "timestamp": "2026-07-31T17:35:20.266Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T17:31:12.504Z",
-      "timestamp": "2026-07-31T17:31:12.504Z",
-      "action": "FEE_SELL_TO_WETH",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "sold coin-denominated fees to WETH ($0.00) [test entry: no on-chain tx]",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T17:15:52.192Z",
-      "timestamp": "2026-07-31T17:15:52.192Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T15:45:03.007Z",
-      "timestamp": "2026-07-31T15:45:03.007Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T15:44:36.398Z",
-      "timestamp": "2026-07-31T15:44:36.398Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:39:14.776Z",
-      "timestamp": "2026-07-31T13:39:14.776Z",
-      "action": "QUEUE_UPDATED",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "44 step(s) in the daily money-cycle plan (9 fee claims, 0 burns)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:39:14.776Z",
-      "timestamp": "2026-07-31T13:39:14.776Z",
-      "action": "KEEPER_HEARTBEAT",
-      "coinSymbol": null,
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:39:10.242Z",
-      "timestamp": "2026-07-31T13:39:10.242Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bSPY",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bSPY paired to SPY (0x9a34B2915E1F9fd3E7995b7Fbb705b31a89EdbA3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:39:06.220Z",
-      "timestamp": "2026-07-31T13:39:06.220Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bGOOGL",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bGOOGL paired to GOOGL (0x3F102B56E8D57F84e0c5b2ca4Ca2E1499FAd4bA3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:39:02.297Z",
-      "timestamp": "2026-07-31T13:39:02.297Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bMETA",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bMETA paired to META (0x9f3307D5b51BEA86d18D2E305eb1b86D65E88Ba3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:38:57.853Z",
-      "timestamp": "2026-07-31T13:38:57.853Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bAMZN",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bAMZN paired to AMZN (0xeaa910B30CE8F1F0b27E7ECdcA7f688c19cB7BA3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:38:52.082Z",
-      "timestamp": "2026-07-31T13:38:52.082Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bMSFT",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bMSFT paired to MSFT (0x2F22145F30381E0bd8e7a9d8e8b16fa08f67dba3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:38:48.415Z",
-      "timestamp": "2026-07-31T13:38:48.415Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bAAPL",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bAAPL paired to AAPL (0x4589fB12a648f1177Cd6B25C500566469fa1cBa3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:38:42.975Z",
-      "timestamp": "2026-07-31T13:38:42.975Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bTSLA",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bTSLA paired to TSLA (0x6B081b7BA3784dE1cA72C2e8638F554FeD55Bba3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:38:00.606Z",
-      "timestamp": "2026-07-31T13:38:00.606Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "bNVDA",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "bNVDA paired to NVDA (0xb4E50b1A63fFBE10354d04dfFE4083D70149aBa3)",
-      "txHash": null,
-      "explorerUrl": null
-    },
-    {
-      "ts": "2026-07-31T13:37:56.507Z",
-      "timestamp": "2026-07-31T13:37:56.507Z",
-      "action": "COIN_REGISTERED",
-      "coinSymbol": "BNKRS",
-      "amountUsd": null,
-      "coinUnits": null,
-      "details": "BNKRS paired to WETH (0x1504ED99c6369f8715449a3BcD2Dc5d5e37f6bA3)",
-      "txHash": null,
-      "explorerUrl": null
-    }
+    { "ts": "2026-08-31T06:15:15.555Z", "timestamp": "2026-08-31T06:15:15.555Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-31T06:00:11.400Z", "timestamp": "2026-08-31T06:00:11.400Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-30T06:15:14.526Z", "timestamp": "2026-08-30T06:15:14.526Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-30 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-30T06:00:11.218Z", "timestamp": "2026-08-30T06:00:11.218Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-30 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-29T06:15:16.021Z", "timestamp": "2026-08-29T06:15:16.021Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-29 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-28T06:15:09.903Z", "timestamp": "2026-08-28T06:15:09.903Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-28 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-28T06:00:11.577Z", "timestamp": "2026-08-28T06:00:11.577Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-28 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-27T06:15:14.604Z", "timestamp": "2026-08-27T06:15:14.604Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-27 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-27T06:00:11.852Z", "timestamp": "2026-08-27T06:00:11.852Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-27 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-26T06:15:16.349Z", "timestamp": "2026-08-26T06:15:16.349Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-26 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-26T06:00:42.313Z", "timestamp": "2026-08-26T06:00:42.313Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-26 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-25T06:15:23.627Z", "timestamp": "2026-08-25T06:15:23.627Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-25 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-25T06:00:38.553Z", "timestamp": "2026-08-25T06:00:38.553Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-25 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-24T06:15:21.793Z", "timestamp": "2026-08-24T06:15:21.793Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-24 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-24T06:00:34.680Z", "timestamp": "2026-08-24T06:00:34.680Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-24 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-23T06:15:22.565Z", "timestamp": "2026-08-23T06:15:22.565Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-23 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-23T06:00:29.872Z", "timestamp": "2026-08-23T06:00:29.872Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-23 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-22T06:15:21.077Z", "timestamp": "2026-08-22T06:15:21.077Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-22 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-22T06:00:27.361Z", "timestamp": "2026-08-22T06:00:27.361Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-22 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-21T06:15:23.128Z", "timestamp": "2026-08-21T06:15:23.128Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-21 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-21T06:00:24.450Z", "timestamp": "2026-08-21T06:00:24.450Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-21 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-20T06:15:22.566Z", "timestamp": "2026-08-20T06:15:22.566Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-20 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-20T06:00:22.893Z", "timestamp": "2026-08-20T06:00:22.893Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-20 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-19T06:15:22.317Z", "timestamp": "2026-08-19T06:15:22.317Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-19 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-19T06:00:19.471Z", "timestamp": "2026-08-19T06:00:19.471Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-19 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-18T06:15:23.439Z", "timestamp": "2026-08-18T06:15:23.439Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-18 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-18T06:00:16.785Z", "timestamp": "2026-08-18T06:00:16.785Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-18 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-17T06:15:34.874Z", "timestamp": "2026-08-17T06:15:34.874Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-17 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-17T06:00:17.656Z", "timestamp": "2026-08-17T06:00:17.656Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-17 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-16T06:15:28.006Z", "timestamp": "2026-08-16T06:15:28.006Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-16 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-16T06:00:16.628Z", "timestamp": "2026-08-16T06:00:16.628Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-16 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-15T06:15:27.854Z", "timestamp": "2026-08-15T06:15:27.854Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-15 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-15T06:00:15.179Z", "timestamp": "2026-08-15T06:00:15.179Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-15 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-14T06:15:22.490Z", "timestamp": "2026-08-14T06:15:22.490Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-14 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-13T06:15:26.242Z", "timestamp": "2026-08-13T06:15:26.242Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-13 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-13T06:00:40.090Z", "timestamp": "2026-08-13T06:00:40.090Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-13 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-12T06:15:30.339Z", "timestamp": "2026-08-12T06:15:30.339Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-12 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-12T06:00:35.012Z", "timestamp": "2026-08-12T06:00:35.012Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-12 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-11T06:15:23.413Z", "timestamp": "2026-08-11T06:15:23.413Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-11 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-11T06:00:32.136Z", "timestamp": "2026-08-11T06:00:32.136Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-11 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-10T06:15:19.165Z", "timestamp": "2026-08-10T06:15:19.165Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-10 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-10T06:00:30.853Z", "timestamp": "2026-08-10T06:00:30.853Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-10 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-09T06:15:27.474Z", "timestamp": "2026-08-09T06:15:27.474Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-09 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-09T06:00:28.179Z", "timestamp": "2026-08-09T06:00:28.179Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-09 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-08T06:15:23.641Z", "timestamp": "2026-08-08T06:15:23.641Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-08 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-08T06:00:25.320Z", "timestamp": "2026-08-08T06:00:25.320Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-08 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-07T06:15:19.448Z", "timestamp": "2026-08-07T06:15:19.448Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-07 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-07T06:00:20.520Z", "timestamp": "2026-08-07T06:00:20.520Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-07 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-06T06:15:24.950Z", "timestamp": "2026-08-06T06:15:24.950Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-06 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-06T06:00:20.256Z", "timestamp": "2026-08-06T06:00:20.256Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-06 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-05T06:15:21.366Z", "timestamp": "2026-08-05T06:15:21.366Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-05 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-05T06:00:20.714Z", "timestamp": "2026-08-05T06:00:20.714Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-05 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-04T06:15:18.508Z", "timestamp": "2026-08-04T06:15:18.508Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-04 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-04T06:00:14.617Z", "timestamp": "2026-08-04T06:00:14.617Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-04 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-03T06:15:17.589Z", "timestamp": "2026-08-03T06:15:17.589Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-03 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-03T06:00:13.538Z", "timestamp": "2026-08-03T06:00:13.538Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-03 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-02T06:15:21.265Z", "timestamp": "2026-08-02T06:15:21.265Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-02 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-02T06:00:17.415Z", "timestamp": "2026-08-02T06:00:17.415Z", "action": "FEE_SPLIT", "coinSymbol": "BNKRS", "amountUsd": 0.8, "coinUnits": null, "details": "split 0/80/20 — pool (buys $BNKRS) +$0.64, owner +$0.16", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-02T06:00:17.415Z", "timestamp": "2026-08-02T06:00:17.415Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-02 handled=1 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-08-01T06:16:14.786Z", "timestamp": "2026-08-01T06:16:14.786Z", "action": "FEE_CLAIM", "coinSymbol": "BNKRS", "amountUsd": 0.8, "coinUnits": null, "details": "claimed $0.80 creator fees for BNKRS - booked and queued for the split", "txHash": "0x610831b133e7a90bb7110fa258afe60be9652837764c7b1d8e2b023cbdc01ce3", "explorerUrl": "https://robinhoodchain.blockscout.com/tx/0x610831b133e7a90bb7110fa258afe60be9652837764c7b1d8e2b023cbdc01ce3" },
+    { "ts": "2026-08-01T06:15:16.259Z", "timestamp": "2026-08-01T06:15:16.259Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-01 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T17:35:20.266Z", "timestamp": "2026-07-31T17:35:20.266Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T17:31:12.504Z", "timestamp": "2026-07-31T17:31:12.504Z", "action": "FEE_SELL_TO_WETH", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "sold coin-denominated fees to WETH ($0.00) [test entry: no on-chain tx]", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T17:15:52.192Z", "timestamp": "2026-07-31T17:15:52.192Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T15:45:03.007Z", "timestamp": "2026-07-31T15:45:03.007Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T15:44:36.398Z", "timestamp": "2026-07-31T15:44:36.398Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:39:14.776Z", "timestamp": "2026-07-31T13:39:14.776Z", "action": "QUEUE_UPDATED", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "44 step(s) in the daily money-cycle plan (9 fee claims, 0 burns)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:39:14.776Z", "timestamp": "2026-07-31T13:39:14.776Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-07-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=0", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:39:10.242Z", "timestamp": "2026-07-31T13:39:10.242Z", "action": "COIN_REGISTERED", "coinSymbol": "bSPY", "amountUsd": null, "coinUnits": null, "details": "bSPY paired to SPY (0x9a34B2915E1F9fd3E7995b7Fbb705b31a89EdbA3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:39:06.220Z", "timestamp": "2026-07-31T13:39:06.220Z", "action": "COIN_REGISTERED", "coinSymbol": "bGOOGL", "amountUsd": null, "coinUnits": null, "details": "bGOOGL paired to GOOGL (0x3F102B56E8D57F84e0c5b2ca4Ca2E1499FAd4bA3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:39:02.297Z", "timestamp": "2026-07-31T13:39:02.297Z", "action": "COIN_REGISTERED", "coinSymbol": "bMETA", "amountUsd": null, "coinUnits": null, "details": "bMETA paired to META (0x9f3307D5b51BEA86d18D2E305eb1b86D65E88Ba3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:38:57.853Z", "timestamp": "2026-07-31T13:38:57.853Z", "action": "COIN_REGISTERED", "coinSymbol": "bAMZN", "amountUsd": null, "coinUnits": null, "details": "bAMZN paired to AMZN (0xeaa910B30CE8F1F0b27E7ECdcA7f688c19cB7BA3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:38:52.082Z", "timestamp": "2026-07-31T13:38:52.082Z", "action": "COIN_REGISTERED", "coinSymbol": "bMSFT", "amountUsd": null, "coinUnits": null, "details": "bMSFT paired to MSFT (0x2F22145F30381E0bd8e7a9d8e8b16fa08f67dba3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:38:48.415Z", "timestamp": "2026-07-31T13:38:48.415Z", "action": "COIN_REGISTERED", "coinSymbol": "bAAPL", "amountUsd": null, "coinUnits": null, "details": "bAAPL paired to AAPL (0x4589fB12a648f1177Cd6B25C500566469fa1cBa3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:38:42.975Z", "timestamp": "2026-07-31T13:38:42.975Z", "action": "COIN_REGISTERED", "coinSymbol": "bTSLA", "amountUsd": null, "coinUnits": null, "details": "bTSLA paired to TSLA (0x6B081b7BA3784dE1cA72C2e8638F554FeD55Bba3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:38:00.606Z", "timestamp": "2026-07-31T13:38:00.606Z", "action": "COIN_REGISTERED", "coinSymbol": "bNVDA", "amountUsd": null, "coinUnits": null, "details": "bNVDA paired to NVDA (0xb4E50b1A63fFBE10354d04dfFE4083D70149aBa3)", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-07-31T13:37:56.507Z", "timestamp": "2026-07-31T13:37:56.507Z", "action": "COIN_REGISTERED", "coinSymbol": "BNKRS", "amountUsd": null, "coinUnits": null, "details": "BNKRS paired to WETH (0x1504ED99c6369f8715449a3BcD2Dc5d5e37f6bA3)", "txHash": null, "explorerUrl": null }
   ],
   "apyTrailing30dPct": null,
   "config": {
     "holdDays": 30,
     "keeperCadenceHours": 24,
     "maxSlippagePct": 1,
-    "spotSplit": {
-      "stockBuyPct": 60,
-      "rewardPoolPct": 20,
-      "ownerPct": 20
-    },
-    "bnkrsSplit": {
-      "rewardPoolPct": 80,
-      "ownerPct": 20
-    }
+    "spotSplit": { "stockBuyPct": 60, "rewardPoolPct": 20, "ownerPct": 20 },
+    "bnkrsSplit": { "rewardPoolPct": 80, "ownerPct": 20 }
   },
-  "control": {
-    "paused": false,
-    "pausedAt": null
-  },
+  "control": { "paused": false, "pausedAt": null },
   "branding": {
     "logoUrl": "https://bankrstonks.fun/logo.jpg",
     "bannerUrl": "https://bankrstonks.fun/banner.jpg"
