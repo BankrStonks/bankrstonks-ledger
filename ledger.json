@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-08-31T06:15:38.164Z",
+  "generatedAt": "2026-09-01T06:15:40.481Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -10,14 +10,14 @@
   "maxCacheAgeSeconds": 604800,
   "dataQuality": {
     "vaultReadOk": true,
-    "bnkrsPriceOk": true,
-    "bnkrsPriceStale": true,
-    "coinsWithMarketData": 1,
+    "bnkrsPriceOk": false,
+    "bnkrsPriceStale": false,
+    "coinsWithMarketData": 0,
     "coinsWithLiveMarketData": 0,
     "coinsTotal": 9,
-    "coinsMissingMarket": ["bNVDA", "bTSLA", "bAAPL", "bMSFT", "bAMZN", "bMETA", "bGOOGL", "bSPY"],
-    "coinsFromCache": ["BNKRS"],
-    "oldestPriceAgeSeconds": 604772,
+    "coinsMissingMarket": ["BNKRS", "bNVDA", "bTSLA", "bAAPL", "bMSFT", "bAMZN", "bMETA", "bGOOGL", "bSPY"],
+    "coinsFromCache": [],
+    "oldestPriceAgeSeconds": null,
     "coinsMissingChainData": [],
     "stocksPricedOnchain": 0,
     "stocksPricedFromCache": 8,
@@ -27,7 +27,7 @@
     "totalValueReservedUsd": 0,
     "totalFeesCollectedUsd": 0.8,
     "totalBNKRSStaked": 80000000,
-    "totalBNKRSStakedUsd": 8.289077448,
+    "totalBNKRSStakedUsd": null,
     "stakerCount": 1,
     "vaultRewardReserve": 0,
     "vaultRewardsDistributed": 0,
@@ -38,7 +38,7 @@
     "openLots": 0,
     "dueForBurnLots": 0,
     "reservePricing": "reference feed",
-    "updatedAt": "2026-08-31T06:15:38.164Z"
+    "updatedAt": "2026-09-01T06:15:40.481Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
@@ -65,7 +65,7 @@
     "chain": "robinhood",
     "stakingToken": "0x1504ED99c6369f8715449a3BcD2Dc5d5e37f6bA3",
     "totalStaked": 80000000,
-    "totalStakedUsd": 8.289077448,
+    "totalStakedUsd": null,
     "stakerCount": 1,
     "rewardReserve": 0,
     "totalRewardsDistributed": 0,
@@ -81,18 +81,7 @@
     "plannedInflow30d": 0,
     "readOk": true
   },
-  "bnkrsMarket": {
-    "priceUsd": 1.036134681e-7,
-    "mcapUsd": 10361.34681,
-    "vol24Usd": 0,
-    "liquidityUsd": 10270.2836,
-    "change24Pct": 0,
-    "source": "onchain-pool",
-    "priceAsOf": "2026-08-24T06:16:06.062Z",
-    "priceStale": true,
-    "priceAgeSeconds": 604772,
-    "priceSource": "cache"
-  },
+  "bnkrsMarket": null,
   "coins": [
     {
       "symbol": "BNKRS",
@@ -106,15 +95,15 @@
       "stockPriceStale": false,
       "stockChange24Pct": null,
       "stockPriceSource": null,
-      "priceUsd": 1.036134681e-7,
-      "priceAsOf": "2026-08-24T06:16:06.062Z",
-      "priceStale": true,
-      "priceAgeSeconds": 604772,
-      "priceSource": "cache",
-      "change24Pct": 0,
-      "mcapUsd": 10361.34681,
-      "liquidityUsd": 10270.2836,
-      "vol24Usd": 0,
+      "priceUsd": null,
+      "priceAsOf": null,
+      "priceStale": false,
+      "priceAgeSeconds": null,
+      "priceSource": null,
+      "change24Pct": null,
+      "mcapUsd": null,
+      "liquidityUsd": null,
+      "vol24Usd": null,
       "supply": 99999999999.99998,
       "totalSupply": 99999999999.99998,
       "burnedUnits": 0,
@@ -124,7 +113,7 @@
       "totalFeeUsd": 0.8,
       "lotCount": 0,
       "createdAt": "2026-07-31T13:37:56.461Z",
-      "dataOk": { "market": true, "chain": true, "marketLive": false }
+      "dataOk": { "market": false, "chain": true, "marketLive": false }
     },
     {
       "symbol": "bNVDA",
@@ -408,6 +397,8 @@
     { "symbol": "SPY", "priceUsd": 765.4, "source": "onchain-cached", "priceAsOf": "2026-08-25T06:15:44.855Z", "priceStale": true }
   ],
   "actionLog": [
+    { "ts": "2026-09-01T06:15:12.205Z", "timestamp": "2026-09-01T06:15:12.205Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-09-01 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-09-01T06:00:15.705Z", "timestamp": "2026-09-01T06:00:15.705Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-09-01 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
     { "ts": "2026-08-31T06:15:15.555Z", "timestamp": "2026-08-31T06:15:15.555Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
     { "ts": "2026-08-31T06:00:11.400Z", "timestamp": "2026-08-31T06:00:11.400Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-31 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
     { "ts": "2026-08-30T06:15:14.526Z", "timestamp": "2026-08-30T06:15:14.526Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-08-30 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
