@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-12T06:15:31.344Z",
+  "generatedAt": "2026-09-13T06:15:40.294Z",
   "source": "bankr-stonks keeper",
   "chain": "robinhood",
   "explorer": "https://robinhoodchain.blockscout.com",
@@ -48,7 +48,7 @@
     "openLots": 0,
     "dueForBurnLots": 0,
     "reservePricing": "reference feed",
-    "updatedAt": "2026-09-12T06:15:31.344Z"
+    "updatedAt": "2026-09-13T06:15:40.294Z"
   },
   "contracts": {
     "treasury": "0xda692f9a6ef58b9a78a3fcbdf60efbae4ee7584c",
@@ -137,7 +137,7 @@
       "pairedStock": "NVDA",
       "stockTokenAddress": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
       "stockPriceUsd": 218.29,
-      "stockPriceAsOf": "2026-09-12T06:15:31.344Z",
+      "stockPriceAsOf": "2026-09-13T06:15:40.294Z",
       "stockPriceStale": false,
       "stockChange24Pct": null,
       "stockPriceSource": "reference",
@@ -173,7 +173,7 @@
       "pairedStock": "TSLA",
       "stockTokenAddress": "0x322F0929c4625eD5bAd873c95208D54E1c003b2d",
       "stockPriceUsd": 365.44,
-      "stockPriceAsOf": "2026-09-12T06:15:31.344Z",
+      "stockPriceAsOf": "2026-09-13T06:15:40.294Z",
       "stockPriceStale": false,
       "stockChange24Pct": null,
       "stockPriceSource": "reference",
@@ -209,7 +209,7 @@
       "pairedStock": "AAPL",
       "stockTokenAddress": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
       "stockPriceUsd": 332.27,
-      "stockPriceAsOf": "2026-09-12T06:15:31.344Z",
+      "stockPriceAsOf": "2026-09-13T06:15:40.294Z",
       "stockPriceStale": false,
       "stockChange24Pct": null,
       "stockPriceSource": "reference",
@@ -245,7 +245,7 @@
       "pairedStock": "MSFT",
       "stockTokenAddress": "0xe93237C50D904957Cf27E7B1133b510C669c2e74",
       "stockPriceUsd": 495.63,
-      "stockPriceAsOf": "2026-09-12T06:15:31.344Z",
+      "stockPriceAsOf": "2026-09-13T06:15:40.294Z",
       "stockPriceStale": false,
       "stockChange24Pct": null,
       "stockPriceSource": "reference",
@@ -437,28 +437,28 @@
       "symbol": "NVDA",
       "priceUsd": 218.29,
       "source": "reference",
-      "priceAsOf": "2026-09-12T06:15:31.344Z",
+      "priceAsOf": "2026-09-13T06:15:40.294Z",
       "priceStale": false
     },
     {
       "symbol": "TSLA",
       "priceUsd": 365.44,
       "source": "reference",
-      "priceAsOf": "2026-09-12T06:15:31.344Z",
+      "priceAsOf": "2026-09-13T06:15:40.294Z",
       "priceStale": false
     },
     {
       "symbol": "AAPL",
       "priceUsd": 332.27,
       "source": "reference",
-      "priceAsOf": "2026-09-12T06:15:31.344Z",
+      "priceAsOf": "2026-09-13T06:15:40.294Z",
       "priceStale": false
     },
     {
       "symbol": "MSFT",
       "priceUsd": 495.63,
       "source": "reference",
-      "priceAsOf": "2026-09-12T06:15:31.344Z",
+      "priceAsOf": "2026-09-13T06:15:40.294Z",
       "priceStale": false
     },
     {
@@ -491,6 +491,8 @@
     }
   ],
   "actionLog": [
+    { "ts": "2026-09-13T06:15:14.102Z", "timestamp": "2026-09-13T06:15:14.102Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-09-13 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
+    { "ts": "2026-09-13T06:00:16.616Z", "timestamp": "2026-09-13T06:00:16.616Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-09-13 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
     { "ts": "2026-09-12T06:15:16.955Z", "timestamp": "2026-09-12T06:15:16.955Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-09-12 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
     { "ts": "2026-09-12T06:00:16.869Z", "timestamp": "2026-09-12T06:00:16.869Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-09-12 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
     { "ts": "2026-09-11T06:15:15.901Z", "timestamp": "2026-09-11T06:15:15.901Z", "action": "KEEPER_HEARTBEAT", "coinSymbol": null, "amountUsd": null, "coinUnits": null, "details": "runId=run_2026-09-11 handled=0 matured=0 openLots=0 dueForBurn=0 planSteps=44 alerts=1", "txHash": null, "explorerUrl": null },
@@ -588,9 +590,7 @@
     { "ts": "2026-07-31T13:38:57.853Z", "timestamp": "2026-07-31T13:38:57.853Z", "action": "COIN_REGISTERED", "coinSymbol": "bAMZN", "amountUsd": null, "coinUnits": null, "details": "bAMZN paired to AMZN (0xeaa910B30CE8F1F0b27E7ECdcA7f688c19cB7BA3)", "txHash": null, "explorerUrl": null },
     { "ts": "2026-07-31T13:38:52.082Z", "timestamp": "2026-07-31T13:38:52.082Z", "action": "COIN_REGISTERED", "coinSymbol": "bMSFT", "amountUsd": null, "coinUnits": null, "details": "bMSFT paired to MSFT (0x2F22145F30381E0bd8e7a9d8e8b16fa08f67dba3)", "txHash": null, "explorerUrl": null },
     { "ts": "2026-07-31T13:38:48.415Z", "timestamp": "2026-07-31T13:38:48.415Z", "action": "COIN_REGISTERED", "coinSymbol": "bAAPL", "amountUsd": null, "coinUnits": null, "details": "bAAPL paired to AAPL (0x4589fB12a648f1177Cd6B25C500566469fa1cBa3)", "txHash": null, "explorerUrl": null },
-    { "ts": "2026-07-31T13:38:42.975Z", "timestamp": "2026-07-31T13:38:42.975Z", "action": "COIN_REGISTERED", "coinSymbol": "bTSLA", "amountUsd": null, "coinUnits": null, "details": "bTSLA paired to TSLA (0x6B081b7BA3784dE1cA72C2e8638F554FeD55Bba3)", "txHash": null, "explorerUrl": null },
-    { "ts": "2026-07-31T13:38:00.606Z", "timestamp": "2026-07-31T13:38:00.606Z", "action": "COIN_REGISTERED", "coinSymbol": "bNVDA", "amountUsd": null, "coinUnits": null, "details": "bNVDA paired to NVDA (0xb4E50b1A63fFBE10354d04dfFE4083D70149aBa3)", "txHash": null, "explorerUrl": null },
-    { "ts": "2026-07-31T13:37:56.507Z", "timestamp": "2026-07-31T13:37:56.507Z", "action": "COIN_REGISTERED", "coinSymbol": "BNKRS", "amountUsd": null, "coinUnits": null, "details": "BNKRS paired to WETH (0x1504ED99c6369f8715449a3BcD2Dc5d5e37f6bA3)", "txHash": null, "explorerUrl": null }
+    { "ts": "2026-07-31T13:38:42.975Z", "timestamp": "2026-07-31T13:38:42.975Z", "action": "COIN_REGISTERED", "coinSymbol": "bTSLA", "amountUsd": null, "coinUnits": null, "details": "bTSLA paired to TSLA (0x6B081b7BA3784dE1cA72C2e8638F554FeD55Bba3)", "txHash": null, "explorerUrl": null }
   ],
   "apyTrailing30dPct": null,
   "config": {
